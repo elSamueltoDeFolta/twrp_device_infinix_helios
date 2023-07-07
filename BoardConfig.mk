@@ -31,6 +31,9 @@ TARGET_USES_64_BIT_BINDER := true
 # Assert
 TARGET_OTA_ASSERT_DEVICE := X6827,FULL-64
 
+# This is a test for now
+BOARD_HAS_FLIPPED_SCREEN := true
+
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := CY-X6827-H812
 TARGET_NO_BOOTLOADER := true
@@ -142,7 +145,7 @@ BOARD_USES_MTK_HARDWARE := true
 
 ## TWRP-Specific configuration
 TW_THEME := portrait_hdpi
-TW_DEVICE_VERSION := Nomercy
+TW_DEVICE_VERSION := Nomercy_and_IMY
 RECOVERY_SDCARD_ON_DATA := true
 TARGET_USES_MKE2FS := true
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
