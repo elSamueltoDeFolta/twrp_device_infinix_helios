@@ -52,13 +52,16 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-service \
     libhealthd.$(PRODUCT_PLATFORM)
 
-# Boot Control HAL
+# Bootctrl
 PRODUCT_PACKAGES += \
-    android.hardware.boot@1.1-mtkimpl.recovery \
-    android.hardware.boot@1.1-mtkimpl
+    android.hardware.boot@1.2-mtkimpl \
+    android.hardware.boot@1.2-mtkimpl.recovery
 
 PRODUCT_PACKAGES_DEBUG += \
-    bootctrl.mt6781
+    bootctrl
+
+PRODUCT_PACKAGES_DEBUG += \
+    bootctrl
 
 # Fastbootd
 PRODUCT_PACKAGES += \
