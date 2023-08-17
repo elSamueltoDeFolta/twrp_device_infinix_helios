@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_X6827.mk
+    $(LOCAL_DIR)/twrp_helios.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_X6827-eng \
-    twrp_X6827-userdebug \
-    twrp_X6827-user
+    twrp_helios-eng \
+    twrp_helios-userdebug \
+    twrp_helios-user

@@ -6,6 +6,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),X6827)
+ifeq ($(TARGET_DEVICE),helios)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
